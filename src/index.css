@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* for testing only, delete when done */
+.page-content {
+  font-size: 10rem;
+}
+
+
+.login button {
+  float: right;
+  z-index: 2;
+  background: var(--yellow);
+}
+
+.navbar button {
+  position: absolute;
+  top: 0;
+  right: 6px;
+}
