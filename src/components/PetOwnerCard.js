@@ -14,7 +14,7 @@ function PetOwnerCard({ owner }) {
     return (
         <li className="card">
             <img src={petImage} alt={`${petName}'s image`} />
-            <h4>{petName}</h4>
+            <h2>{petName}</h2>
             <p>{description}</p>
             <button onClick={handleMessageOwner} className="message-owner">Message Owner</button>
         </li>

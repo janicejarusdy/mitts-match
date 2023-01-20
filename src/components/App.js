@@ -16,7 +16,7 @@ function App() {
   }
 
   return (
-    <>
+    <main>
         <Router>
             <Navbar isLoggedIn={isLoggedIn} onLoginClick={handleLoginClick}/>
             <Routes>
@@ -26,7 +26,7 @@ function App() {
             </Routes>
         </Router>
 
-    </>
+    </main>
   );
 }
 

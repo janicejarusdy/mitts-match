@@ -13,9 +13,9 @@ function PetOwners() {
 
 
     return (
-        <div className="petOwners">
+        <div className="pages">
             <h1>Pet Owners</h1>
-            <ul>
+            <ul className="cards">
                 {petOwners.map(owner => {
                     console.log(owner)
 
