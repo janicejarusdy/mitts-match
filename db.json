@@ -1,6 +1,6 @@
 
 {
-  "petOwners": [
+  "PetOwners": [
     {
         "ownerName": "Jacob",
         "ownerImage": "https://live.staticflickr.com/3161/3026922852_df4fc0e1e4_k.jpg",
@@ -23,10 +23,10 @@
     }
   ],
 
-  "petSitters": [
+  "PetSitters": [
     {
-      "name":"Charmaine",
-      "petSitterImage":"https://www.flickr.com/photos/80260916@N05/7642690086/in/photolist-cDmMuJ-6vBSXy-7FNkFp-8C3tGw-8X7MxU-577TXE-8C3spw-6CqCSr-6mFNrp-2hg357p-2gPLo5V-542NMT-83WhR-2iG9DTA-2kRv-2eLsnvW-hpuStQ-2mUA45b-bn3M8C-85xzTg-a9x7ji-ebnPfA-8BHTLW-4WNuLV-8zMwi1-7PqywL-21wp1tR-e1d1t-52Mx9k-7qiFyT-2gPKBNC-8BHUMQ-8BHWWw-4qSY1r-2gPLepU-8BETBP-2gPKnGr-8BHWgm-8BHVnm-8BHX3U-8BEQev-8BHVAh-8BHXWj-8BEMJT-8BHYqN-8BESZR-8BETtD-8BEMy8-8BHYeL-8BHVfU",
+      "sitterName":"Charmaine",
+      "sitterImage":"https://live.staticflickr.com/7125/7642690086_3075908aa2.jpg",
       "bio": "I provide safe, nurturing care for a wide range of animals, including dogs, cats, fish, birds, and small mammals, such as rabbits and hamsters. Friendly and trustworthy, putting pets and their people at ease with reliable, conscientious care.",
       "yearsOfExperience": 3,
       "state": "VIC",
@@ -35,8 +35,8 @@
     },
 
     {
-      "name":"Jake",
-      "petSitterImage":"https://www.flickr.com/photos/debbeling1/6576790025/in/photolist-b2aLxt-DyGPk9-6HEWgD-WfZGn-9jLMHj-6YfEnG-7is6wH-7Dm8DZ-9864uN-UQiodS-5tQbN-WA7cZC-jaRdA-sp1sGd-7CFCp-wfyW3j-c9owA7-6x89o5-8e4de8-aJYTKe-J12JX-84JrZQ-NRsMNd-jfWjL-GBjyH-oo14J-9xvhYR-jjNft-bQEYMx-5zrmy8-5M6eVQ-6UR1eD-9y1ne9-64hyDt-5zBNNZ-bXuehj-fiuhNx-5ofjZp-8YJexx-irp61K-9aLGMV-4isdWX-beEtHr-4BR18H-ehLh-5Tiaoo-9oobBN-dZYEER-aqLmF5-cvFvu",
+      "sitterName":"Jake",
+      "sitterImage":"https://live.staticflickr.com/35/71053112_0cd67d85a2.jpg",
       "bio": "I have experience caring for older cats, and can help with paying attention to giving nutritional feeds.",
       "yearsOfExperience": 5,
       "state": "VIC",
