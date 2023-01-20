@@ -1,4 +1,4 @@
-import './App.css'
+import '../index.css'
 import React, { useState, useEffect } from "react"
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Navbar from "./Navbar"
@@ -11,10 +11,14 @@ function App() {
 
   const [isLoggedIn, setIsLoggedIn] = useState(false)
 
+  function handleLoginClick() {
+    setIsLoggedIn(!isLoggedIn)
+  }
+
   return (
     <>
         <Router>
-            <Navbar />
+            <Navbar isLoggedIn={isLoggedIn} onLoginClick={handleLoginClick}/>
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/PetOwners" element={<PetOwners />} />

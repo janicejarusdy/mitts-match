@@ -5,8 +5,9 @@ import { Link } from "react-router-dom"
 import { SidebarData } from "./SidebarData"
 import './Navbar.css'
 import { IconContext } from 'react-icons'
+import {isLoggedIn , onLoginClick} from "./App"
 
-function Navbar() {
+function Navbar({ isLoggedIn, onLoginClick }) {
   const [sidebar, setSidebar] = useState(false)
 
   const showSidebar = () => setSidebar(!sidebar)
@@ -37,7 +38,7 @@ function Navbar() {
               })}
             </ul>
           </nav>
-          <button style={{backgroundColor: "yellow"}}> Testing </button>
+          <button style={{backgroundColor: "yellow"}} onClick={onLoginClick}> {isLoggedIn ? "Logout" : "Login"} </button>
         </div>
       </IconContext.Provider>
     </>
